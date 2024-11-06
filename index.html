@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        h1 {
+            text-align: center;
+            color: antiquewhite;
+        }
+        body{
+            background-color: rgb(241, 160, 192);
+            
+              }
+        #quiz {
+            max-width: 700px;
+            margin: 10% auto;
+            padding: 20px;
+            background-color: rgb(173, 124, 220);
+            border-radius: 5px;
+            box-shadow: 10px 10px 10px 0 rgb(0, 0, 0, 0.7);
+        }
+        h1 {
+            text-align: center;
+            color: antiquewhite;
+            font-size: xx-large;
+        }
+       #question {
+        margin-bottom: 20px;
+        color: beige;
+        font-size:x-large;
+       }
+       #options {
+        display: grid;
+        gap: 10px;
+        grid-template-columns: repeat(2,1fr);
+       }
+       button {
+        display: block;
+        margin: 5px auto 14px;
+        padding: 10px 20px;
+        background-color: rgb(211, 202, 208);
+        color: black;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+        font-size: large;
+       }
+       button:hover {
+        background-color: rgb(242, 168, 226);
+        box-shadow: 30%;
+       }
+       h1, p {
+        color: beige;
+       }
+    </style>
+</head>
+<body>
+    <div id="quiz">
+    <h1> HTML QUIZ</h1>
+    <div id="question"></div>
+        <div id="options"></div>
+        <button id="submit"> Submit</button>
+    </div>
+    <script src="script.js"></script>
+
+   
+
+</body>
+</html>
